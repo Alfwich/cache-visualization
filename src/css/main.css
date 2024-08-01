@@ -1,0 +1,74 @@
+th.tag {
+  width : 300px;
+}
+
+.row {
+  margin: 0px;
+}
+
+.cacheSimulator {
+  padding: 3px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.memoryOverviewLevel {
+  text-align: center;
+  margin-bottom: 10px;
+  border: 1px solid #BBB;
+  padding: 10px;
+  clear: both;
+}
+
+.memoryOverviewLevel > h2 {
+  float: left;
+  clear: both;
+}
+
+.cacheControls {
+  float: right;
+  position: relative;
+  top: 22px;
+}
+
+.mainMemoryControls {
+  clear: both;
+}
+
+.cacheSimulator .cacheLevel {
+  width: 100%;
+  text-align:center;
+  background-color:#eee;
+}
+
+input {
+  margin-top:5px;
+}
+
+.table {
+  margin-bottom: 0px;
+}
+
+.cacheSimulator * .table>tbody>tr>td, .cacheSimulator * .table>tbody>tr, .cacheSimulator * .table>thead>th{
+  padding: 0px;
+  margin: 0px;
+}
+
+.right {
+  float: right;
+  margin-left:10px;
+}
+
+.memoryOverviewButton {
+  position: relative;
+  top: 16px;
+}
+
+.overall {
+  font-weight: bold;
+  border-top: 4px solid #DDD;
+}
+
+
+
+
